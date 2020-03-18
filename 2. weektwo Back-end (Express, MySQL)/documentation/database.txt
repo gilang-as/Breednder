@@ -1,0 +1,17 @@
+#CREATE Table users
+npx sequelize-cli model:generate --name user --attributes email:string,password:string,breeder:string, phone:string, address:string
+
+#CREATE Table species
+npx sequelize-cli model:generate --name species --attributes name:string
+
+#CREATE Table pets
+npx sequelize-cli model:generate --name pet --attributes name:string,gender:string,species:integer,age:string,user:integer,about_pet:string,photo:string
+
+#CREATE Table match
+npx sequelize-cli model:generate --name metch --attributes pet_id:integer,pet_id_like:integer,status:boolean
+
+#CREATE Table payment
+npx sequelize-cli model:generate --name payment --attributes no_rek:string,proof_of_transfer:string,user:integer,status:enum
+
+#CREATE Table admin
+npx sequelize-cli model:generate --name admin --attributes name:string,email:string,password:string

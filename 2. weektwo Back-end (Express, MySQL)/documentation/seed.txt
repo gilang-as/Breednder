@@ -1,0 +1,17 @@
+#Create seed user
+npx sequelize-cli seed:generate --name demo-user
+
+#Create seed species
+npx sequelize-cli seed:generate --name demo-species
+
+#Create seed pet
+npx sequelize-cli seed:generate --name demo-pet
+
+#Create seed pet
+npx sequelize-cli seed:generate --name demo-match
+
+#Create seed payment
+npx sequelize-cli seed:generate --name demo-payment
+
+#Create seed admin
+npx sequelize-cli seed:generate --name demo-admin
