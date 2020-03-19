@@ -96,7 +96,7 @@ Note that the variable `BASE_URL` above is your server network Internet Protocol
 
 ## Built With
 
-- [React Native](https://facebook.github.io/react-native/) - Front-end
+- [React JS](https://reactjs.org/) - Front-end
 - [Express JS](https://expressjs.com) - Back-end
 - [MySQL](https://www.mysql.com) - Database
 
